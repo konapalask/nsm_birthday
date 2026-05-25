@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Maheedhar. V | NSM 94 Tribute</title>
+    
+    <!-- Meta tags for premium SEO and presentation -->
+    <meta name="description" content="A premium birthday wishes page for Maheedhar. V, celebrating friendship, memories, and timeless bonds since 1994.">
+    <meta name="theme-color" content="#07090E">
+    
+    <!-- Premium Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Lightweight canvas-confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <!-- Drifting Star & Gold Dust Canvas Backing -->
+    <div class="cinematic-bg"></div>
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Luxury Ambient Music Widget -->
+    <div id="audioBtn" class="audio-controller" title="Enable luxurious ambient soundscape">
+        <svg class="audio-icon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+        </svg>
+        <span id="audioStatusText" class="input-label" style="margin: 0; color: inherit; font-size: 0.65rem;">Play Sound</span>
+        <div class="audio-visualizer">
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+            <div class="visualizer-bar"></div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        
+        <!-- Elegant Header Area -->
+        <header>
+            <div class="alumni-badge">
+                <span class="badge-dot"></span>
+                NSM Class of 1994 Tribute
+                <span class="badge-dot"></span>
+            </div>
+            
+            <h1 class="title-primary">
+                Happy Birthday <br>
+                <span class="shimmer-text">Maheedhar. V</span>
+            </h1>
+            
+            <p class="subtitle">
+                Celebrating a life of laughter, friendship, and timeless memories. <br>
+                Classmates yesterday, family today, legends forever.
+            </p>
+        </header>
+
+        <!-- Main Interactive Layout -->
+        <main class="main-experience">
+            
+            <!-- 3D Invitation Flip Card Section -->
+            <div class="perspective-container" id="birthdayCardContainer">
+                <div class="birthday-card-3d" id="birthdayCard">
+                    
+                    <!-- Front Face of Card -->
+                    <div class="card-face card-front">
+                        <div class="corner-decor corner-top-left"></div>
+                        <div class="corner-decor corner-top-right"></div>
+                        <div class="corner-decor corner-bottom-left"></div>
+                        <div class="corner-decor corner-bottom-right"></div>
+                        
+                        <div class="card-front-image-frame">
+                            <img src="WhatsApp Image 2026-05-25 at 15.26.07.jpeg" alt="Maheedhar. V Celebration Portrait" class="card-image">
+                            <div class="frame-overlay"></div>
+                            <span class="frame-label">NSM 94 Classmate</span>
+                        </div>
+                        
+                        <div class="card-front-content">
+                            <h2 class="card-name font-serif italic">Maheedhar. V</h2>
+                            <p class="card-tagline">A Legend Celebrates Today</p>
+                            
+                            <div class="card-hint">
+                                <span class="hint-glow-dot"></span>
+                                Tap / Hover to Unveil Wishes ✨
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Back Face of Card (Shown on Hover / Flip) -->
+                    <div class="card-face card-back">
+                        <div class="corner-decor corner-top-left"></div>
+                        <div class="corner-decor corner-top-right"></div>
+                        <div class="corner-decor corner-bottom-left"></div>
+                        <div class="corner-decor corner-bottom-right"></div>
+                        
+                        <div class="card-back-image-frame">
+                            <img src="WhatsApp Image 2026-05-25 at 15.26.08.jpeg" alt="Maheedhar. V Portrait Back" class="card-image" style="transform: scale(1.03);">
+                            <div class="frame-overlay" style="background: linear-gradient(to top, rgba(9, 13, 24, 0.95) 0%, rgba(9, 13, 24, 0.2) 100%);"></div>
+                            <span class="frame-label" style="color: var(--gold-light);">NSM Alumni Family</span>
+                        </div>
+                        
+                        <div class="card-back-wishes">
+                            <h3 class="wish-heading">Our Birthday Wish</h3>
+                            <p class="wish-text">“A very happy birthday and have a great day”</p>
+                            <span class="wishes-signature">— NSM 94 Classmates</span>
+                        </div>
+                        
+                        <button class="celebrate-btn">
+                            Sparkle & Celebrate 🍾
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Luxury Photo Gallery Showcase -->
+            <section class="photo-gallery-section">
+                <div class="flex items-center gap-4 mb-8" style="display: inline-flex; align-items: center; gap: 0.8rem; margin-bottom: 2rem;">
+                    <div style="width: 40px; height: 1px; background: var(--gold-primary); opacity: 0.5;"></div>
+                    <span class="input-label" style="color: var(--gold-light); font-size: 0.75rem; letter-spacing: 0.3em;">Portrait Showcase</span>
+                    <div style="width: 40px; height: 1px; background: var(--gold-primary); opacity: 0.5;"></div>
+                </div>
+
+                <div class="gallery-grid">
+                    
+                    <div class="gallery-item">
+                        <img src="WhatsApp Image 2026-05-25 at 15.26.07.jpeg" alt="Maheedhar. V Portrait One" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div>
+                                <h4 class="gallery-title">Maheedhar. V</h4>
+                                <p class="gallery-sub">Classmate Profile</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="WhatsApp Image 2026-05-25 at 15.26.08.jpeg" alt="Maheedhar. V Portrait Two" class="gallery-image">
+                        <div class="gallery-overlay">
+                            <div>
+                                <h4 class="gallery-title">Maheedhar. V</h4>
+                                <p class="gallery-sub">Alumni Profile</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Dynamic Guestbook Wish Wall -->
+            <section class="wish-wall-section">
+                <div class="wish-wall-header">
+                    <div class="wish-wall-title">
+                        <svg class="sparkles-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                        <h2 class="wish-wall-title-text">Live Alumni Wish Wall</h2>
+                    </div>
+                    <span class="wishes-count-badge"><span id="wishesCount">0</span> Wishes Posted</span>
+                </div>
+
+                <!-- Form to Add Custom Wish -->
+                <form id="wishForm" class="wish-form">
+                    <div class="input-group">
+                        <label for="senderName" class="input-label">Your Name</label>
+                        <input type="text" id="senderName" class="input-field" placeholder="E.g., Sanjay Kumar" required autocomplete="off">
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="senderBatch" class="input-label">Your Batch / Note</label>
+                        <input type="text" id="senderBatch" class="input-field" placeholder="E.g., NSM 1994 Classmate" autocomplete="off">
+                    </div>
+                    
+                    <div class="input-group form-full-width">
+                        <label for="senderMessage" class="input-label">Your Birthday Wish</label>
+                        <textarea id="senderMessage" class="input-field" placeholder="E.g., Wishing you a spectacular birthday and a legendary year ahead, buddy!" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit-btn">Post to Wish Wall ✨</button>
+                </form>
+
+                <!-- Board where wishes are rendered -->
+                <div id="wishesBoard" class="wishes-board">
+                    <!-- Dynamic cards will populate here -->
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Elegant Footer -->
+        <footer>
+            <div class="footer-logo">NSM 94</div>
+            <div class="footer-subtitle">Class Reunion Silver Jubilee Tribute</div>
+        </footer>
+
+    </div>
+
+    <!-- Core Logic Script -->
+    <script src="index.js"></script>
+</body>
+</html>
